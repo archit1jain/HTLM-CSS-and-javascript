@@ -1,37 +1,116 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment Solution for Module 2</title>
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+			border-radius: 5px;
+			
+		}
+		#title1{
+			text-align: center;
+			font-weight: bold;
 
-You can use the [editor on GitHub](https://github.com/archit1jain/course3-module2-solution/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+		}
+		section{
+			background-color: gray;
+			position: relative;
+			float: left;
+			margin-right: 10px;
+			margin-bottom: 10px;
+			
+		}
+		#topicchicken{
+			background-color: #ff9999;
+			padding: 2px;
+			margin-top: 0px;
+			position: relative;
+			float: right;
+			border-left: 1px black solid;
+			border-bottom: 1px black solid;
+			padding: 6px;
+			width: 30%;
+			text-align: center;
+			font-weight: bold;
+		}
+		#topicbeef{
+			background-color: red;
+			color: white;
+			padding: 2px;
+			margin-top: 0px;
+			position: relative;
+			float: right;
+			border-left: 1px black solid;
+			border-bottom: 1px black solid;
+			padding: 6px;
+			width: 30%;
+			text-align: center;
+			font-weight: bold;
+		}
+		#topicsushi{
+			background-color: #cca300;
+			padding: 2px;
+			margin-top: 0px;
+			position: relative;
+			float: right;
+			border-left: 1px black solid;
+			border-bottom: 1px black solid;
+			padding: 6px;
+			width: 30%;
+			text-align: center;
+			font-weight: bold;
+		}
+		#content{
+			padding: 5px;
+			position: relative;
+			float: right;
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+		}
+		@media(min-width:992px){
+		.col-lg-4{
+			width: 32%;
+		}
+	}
+	@media(max-width:991px) and (min-width:768px) {
+		.col-md-6{
+			width: 48%;
+		}
+		.col-md-12{
+			width: 97%;
+		}
+	}
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+		
+	</style>
 
-# Header 1
-## Header 2
-### Header 3
+</head>
 
-- Bulleted
-- List
+<body>
+	<h1 id="title1">Our Menu</h1>
+	<section id="chicken" class="col-lg-4 col-md-6">
+		<div id="topicchicken">Chicken</div>
+		<div id="content">
+			<p>Borders and Colors: Each section should have a background color set to some color (of your choosing). Set the background color of each section title region to some unique color (of your choosing). Make sure that the background color still allows the user to view the text in t</p>
+		</div>
+		
+	</section>
+	<section id="Beef" class="col-lg-4 col-md-6">
+		<div id="topicbeef">Beef</div>
+		<div id="content">
+			<p>Borders and Colors: Each section should have a background color set to some color (of your choosing). Set the background color of each section title region to some unique color (of your choosing). Make sure that the background color still allows the user to view the text in t</p>
+		</div>
+		
+	</section>
+	<section id="Shushi" class="col-lg-4 col-md-12">
+		<div id="topicsushi">Shushi</div>
+		<div id="content">
+			<p>Borders and Colors: Each section should have a background color set to some color (of your choosing). Set the background color of each section title region to some unique color (of your choosing). Make sure that the background color still allows the user to view the text in t</p>
+		</div>
+		
+	</section>
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/archit1jain/course3-module2-solution/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</body>
+</html>
